@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:textColor="@color/colorPrimary"
         android:textSize="35dp"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -28,9 +28,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Desktop"
-        android:id="@+id/desktop_button"
+        android:id="@+id/findDesktopButton"
         android:layout_marginBottom="5dp"
-        android:layout_above="@+id/laptop_button"
+        android:layout_above="@+id/findLaptopButton"
         android:layout_centerHorizontal="true"
         android:background="@color/colorPrimary"/>
 
@@ -38,9 +38,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Laptop"
-        android:id="@+id/laptop_button"
+        android:id="@+id/findLaptopButton"
         android:layout_marginBottom="5dp"
-        android:layout_above="@+id/mobile_button"
+        android:layout_above="@+id/findMobileButton"
         android:layout_centerHorizontal="true"
         android:background="@color/colorPrimary"/>
 
@@ -48,9 +48,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mobile"
-        android:id="@+id/mobile_button"
+        android:id="@+id/findMobileButton"
         android:layout_marginBottom="5dp"
-        android:layout_above="@+id/tablet_button"
+        android:layout_above="@+id/findTabletButton"
         android:layout_centerHorizontal="true"
         android:background="@color/colorPrimary"/>
 
@@ -58,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tablet"
-        android:id="@+id/tablet_button"
+        android:id="@+id/findTabletButton"
         android:layout_marginBottom="5dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
